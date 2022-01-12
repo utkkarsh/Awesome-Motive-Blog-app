@@ -24,8 +24,7 @@ export const SinglePostPage = () => {
     };
 
     if (totalPosts === 0) {
-      fetcy
-      hData();
+      fetchData();
     }
   }, [totalPosts, dispatch, params.postId]);
 
